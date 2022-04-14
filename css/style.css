@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* Variables*/
+:root 
+{--lav-light: #f2deff;
+  --lav: #D99090 ;}
+/* Tipografía general */
+body 
+{font-family: raleway;
+}
+
+  .header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+main {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 30px;
+}
+/* DERECHOS DE AUTOR */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {width: 100%;
+    background: var(--lav);
+    height: 100px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.anchoFooter {margin-top: 30px;
+}
+.redes 
+{display: inline-block;
+}
+.bi-facebook {font-size: 30px;text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+}
+.bi-facebook:hover
+ {color: #ED8B8B ;
+}
+.bi-whatsapp 
+{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px
+    ;color: #fff;
+}
+.bi-whatsapp:hover
+ {color: #25d366;
+}.bi-instagram
+ {font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #fff;
+}
+.bi-instagram:hover
+ {color: #ED8B8B ;
+}
